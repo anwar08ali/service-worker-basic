@@ -1,0 +1,26 @@
+header {
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav div {
+  cursor: pointer;
+}
+#pageWrapper{
+  width: 924px;
+  margin: auto;
+  height: 500px;
+  padding: 10px;
+}
